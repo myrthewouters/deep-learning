@@ -1,0 +1,9 @@
+rsna-bone-age
+.ipynb_checkpoints/balanced-train-pre-trained-xception-checkpoint.ipynb
+.ipynb_checkpoints/inception-rsna-winners-checkpoint.ipynb
+.ipynb_checkpoints/initial-pre-trained-xception-checkpoint.ipynb
+models/keras_weights_model_1.hdf5
+models/keras_weights_model_2.hdf5
+notebooks/.DS_Store
+notebooks/.ipynb_checkpoints/initial-pre-trained-xception-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/inception-rsna-winners-checkpoint.ipynb
