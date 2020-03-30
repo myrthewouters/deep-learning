@@ -7,3 +7,6 @@ models/keras_weights_model_2.hdf5
 notebooks/.DS_Store
 notebooks/.ipynb_checkpoints/initial-pre-trained-xception-checkpoint.ipynb
 notebooks/.ipynb_checkpoints/inception-rsna-winners-checkpoint.ipynb
+.DS_Store
+models/keras_weights_sequential_3.hdf5
+notebooks/.ipynb_checkpoints/initial-simple-cnn-checkpoint.ipynb
