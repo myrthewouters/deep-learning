@@ -77,8 +77,8 @@ def resize_padding():
   test = add_filename(test)
 
   # Resizing and padding
-  train = resize_padding_set(train, YOUR_PATH+'boneage-training-dataset/', 'training', 500)
-  test = resize_padding_set(test, YOUR_PATH+'boneage-test-dataset/','test', 500)
+  train = resize_padding_set(train, YOUR_PATH+'boneage-training-dataset/', 'training', 256)
+  test = resize_padding_set(test, YOUR_PATH+'boneage-test-dataset/','test', 256)
 
   # Save train and validation sets as csv files
   train.to_csv(YOUR_PATH + 'train.csv')
