@@ -1,6 +1,6 @@
 # Fine-tuning of Pre-trained Deep Networks for Bone Age Assessment
 
-This repository is part of a project for a deep learning course, in which the RNSA Bone Age dataset is used, available at [Kaggle](https://pubs.rsna.org/doi/full/10.1148/radiol.2017170236). The aim of the project was to experiment with fine-tuning of pre-trained networks, including both image and gender input for bone age assessment. 
+This repository is part of a project for a deep learning course, in which the RNSA Bone Age dataset is used, publicly available at [Kaggle](https://pubs.rsna.org/doi/full/10.1148/radiol.2017170236). The aim of the project was to experiment with fine-tuning of pre-trained networks, including both image and gender input for bone age assessment. 
 
 ## Dataset
 Original images were resized to 256x256 pixels with padding. Code for resizing and padding can be found in the *preprocessing* directory. Additionally, real-time data augmentation on the training set is used during training. An example image can be found below.
@@ -29,7 +29,7 @@ The model used in this project incorporates a fine-tuned pre-trained architectur
 <img src="https://github.com/myrthewouters/deep-learning/blob/master/schematic-model.png" width="400
 ">
 
-The following architectures pre-trained on the ImageNet dataset were used: [VGG16](https://keras.io/api/applications/vgg/#vgg16-function) and [ResNet18](https://github.com/qubvel/classification_models). Next to the model architecture provided above, I trained two modes (VGG16 and ResNet18) on image input only.
+The following architectures pre-trained on the ImageNet dataset were used: [VGG16](https://keras.io/api/applications/vgg/#vgg16-function) and [ResNet18](https://github.com/qubvel/classification_models). Next to the model architecture provided above, I trained two models (VGG16 and ResNet18) on image input only.
 
 Training, tuning and evaluation procedures for the models including both gender and image inputs as shown schematically are presented in the following notebooks: *notebooks/vgg16-concatenated.ipynb* and *resnet18-concatenated.ipynb* and together form the majority part of this project. 
 
