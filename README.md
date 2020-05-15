@@ -33,7 +33,7 @@ The following architectures pre-trained on the ImageNet dataset were used: [VGG1
 
 Training, tuning and evaluation procedures for the models including both gender and image inputs as shown schematically are presented in the following notebooks: *notebooks/vgg16-concatenated.ipynb* and *resnet18-concatenated.ipynb* and together form the majority part of this project. 
 
-Additionally, training and evaluation for the models including image input only can be found in the following notebooks: *notebooks/vgg16.ipynb* and *notebooks/resnet18.ipynb*. These models are trained with optimal hyperparameters found for the models including both gender and image inputs, instead of being seperately tuned.
+Additionally, training and evaluation for the models including image input only can be found in the following notebooks: *notebooks/vgg16.ipynb* and *notebooks/resnet18.ipynb*. These models are trained with optimal hyperparameters found for the models including both gender and image inputs, instead of being separately tuned.
 
 Note: to run the notebooks on the ResNet18 models, please install the following keras patch (pip install -U --force-reinstall --no-dependencies git+https://github.com/datumbox/keras@bugfix/trainable_bn) and tensorflow 1.14, due to issues on finetuning of pre-trained models including batch normalization layers. Read more [here](https://github.com/keras-team/keras/pull/9965). The notebooks on the VGG16 models can be run on Keras 2.2.4 and tensorflow 2.2.
 
