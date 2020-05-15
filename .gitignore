@@ -14,3 +14,5 @@ final_notebooks/.ipynb_checkpoints/vgg16-concatenated-checkpoint.ipynb
 *.pickle
 *.hdf5
 notebooks/.ipynb_checkpoints/vgg16-concatenated-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/resnet18-concatenated-checkpoint.ipynb
+*.ipynb
