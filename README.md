@@ -26,7 +26,7 @@ Original images were resized to 256x256 pixels with padding. Code for resizing a
 ## Methods
 The model used in this project incorporates a fine-tuned pre-trained architecture (VGG16 or ResNet18) to handle the image input and a gender network. A schematic overview of the model can be found below.
 
-<img src="https://github.com/myrthewouters/deep-learning/blob/master/model-schematic/schematic-model.png" width="400
+<img src="https://github.com/myrthewouters/deep-learning/blob/master/schematic-model.png" width="400
 ">
 
 The following architectures pre-trained on the ImageNet dataset were used: [VGG16](https://keras.io/api/applications/vgg/#vgg16-function) and [ResNet18](https://github.com/qubvel/classification_models). Next to the model architecture provided above, I trained two modes (VGG16 and ResNet18) on image input only.
