@@ -4,7 +4,7 @@ from os.path import isfile, join, isdir
 import sys
 import cv2
 
-YOUR_PATH = '../rsna-bone-age/'
+YOUR_PATH = # ADD YOUR PATH HERE
 
 # Add filename to dataframes
 def add_filename(df):
