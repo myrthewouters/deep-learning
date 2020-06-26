@@ -1,6 +1,6 @@
 # Fine-tuning of Pre-trained Deep Networks for Bone Age Assessment
 
-This repository is part of a project for a deep learning course, in which the RNSA Bone Age dataset is used, publicly available at [Kaggle](https://pubs.rsna.org/doi/full/10.1148/radiol.2017170236). The aim of the project was to experiment with fine-tuning of pre-trained networks, including both image and gender input for bone age assessment. 
+This repository is part of a project for a deep learning course, in which the RNSA Bone Age dataset is used, publicly available at [Kaggle](https://pubs.rsna.org/doi/full/10.1148/radiol.2017170236). The aim of the project was to experiment with fine-tuning of pre-trained networks, including both image and gender input for bone age assessment. The final deliverables of the project were a one-page paper with references squeezed unformatted in the footnote (*paper.pdf*) and source code.
 
 ## Dataset
 Original images were resized to 256x256 pixels with padding. Code for resizing and padding can be found in the *preprocessing* directory. Additionally, real-time data augmentation on the training set is used during training. An example image can be found below.
